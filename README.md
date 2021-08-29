@@ -23,7 +23,7 @@ Weihao Huang
 ![](images/Project0_part_3_2_webGL1.JPG)
 ![](images/Project0_part_3_2_webGL2.JPG)
 
-**Part 3.1.1 - Checking DXR (made it pink)**
+**Part 3.3 - Checking DXR (made it pink)**
 ![](images/Project0_part_3_3_DXR_pink.JPG)
 
 
