@@ -1,0 +1,10 @@
+^D:\SCHOOL FILES\PENN FALL 2021\CIS565\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\BE6D01D44B3E36D5C0841ED13A45374A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/School Files/Penn Fall 2021/CIS565/Project0-Getting-Started/cuda-getting-started" "-BD:/School Files/Penn Fall 2021/CIS565/Project0-Getting-Started/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/School Files/Penn Fall 2021/CIS565/Project0-Getting-Started/build/cis565_getting_started.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
